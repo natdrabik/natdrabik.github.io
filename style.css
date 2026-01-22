@@ -108,3 +108,12 @@ button {
   font-weight: 700;
   font-size:12px;
 }
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
