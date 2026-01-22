@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,900,300");
+
+:root {
+--primary: #8569b3;
+--primary-content: #ffffff;
+--primary-dark: #6b4e9b;
+--primary-light: #a18bc4;
+
+--secondary: #6997b3;
+--secondary-content: #0a1013;
+--secondary-dark: #4e7e9b;
+--secondary-light: #8baec4;
+
+--background: #18151e;
+--foreground: #25202d;
+--border: #3d354b;
+
+--copy: #fbfbfc;
+--copy-light: #d7d2df;
+--copy-lighter: #a296b5;
+
+--success: #69b369;
+--warning: #b3b369;
+--error: #b36969;
+--success-content: #0a130a;
+--warning-content: #13130a;
+--error-content: #ffffff;
+  /** Typography */
+  --font-main: "Lato", sans-serif;
+}
+
+/* ---------------------------------------
+   Estilos globais
+---------------------------------------- */
+body {
+  background: var(--background);
+  color: var(--copy-light);
+  font-family: var(--font-main);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  font-weight:400;
+}
+
+/* ---------------------------------------
+   Títulos — usando cor secundária
+---------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-main);
+  font-weight: 900;
+  line-height: 1.2;
+  color: var(--primary-light);
+  margin-top: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+
+h1 { font-size: 18px; 
+color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight:900;
+}
+h2 { font-size: 18px; }
+h3 { font-size: 16px; }
+
+pre {
+  padding: 5px 15px;
+  background: var(--foreground);
+  border-radius: 20px;
+}
+
+svg path {
+  fill: var(--primary-light);
+}
+/* ---------------------------------------
+   Parágrafos
+---------------------------------------- */
+p {
+  margin-bottom: 1rem;
+  
+  strong, b {
+    color: var(--secondary);
+  }
+}
+
+/* ---------------------------------------
+   Links — usando secundária
+---------------------------------------- */
+a {
+  color: var(--clr-secondary-a40);
+  text-decoration: none;
+  transition: color .2s ease;
+}
+
+a:hover {
+  color: var(--clr-secondary-a10);
+}
+
+button {
+  background: var(--secondary);
+  color: var(--copy);
+  border: 0;
+  border-radius: 5px;
+  cursor:pointer;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size:12px;
+}
