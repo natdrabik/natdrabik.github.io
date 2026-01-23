@@ -75,7 +75,10 @@ h2 {
   /* font-size: 18px;  */
   font-size: 8cqh; 
 }
-h3 { font-size: 16px; }
+h3 { 
+  /* font-size: 16px; */
+  font-size: 6cqh; 
+}
 
 pre {
   padding: 5px 15px;
@@ -84,7 +87,7 @@ pre {
 }
 
 svg path {
-  fill: var(--primary-light);
+  fill: var(--primary);
 }
 /* ---------------------------------------
    Parágrafos
@@ -145,16 +148,8 @@ section {
   }
 
   li {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: var(--primary);
-    color: var(--copy-light);
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: 900;
+    flex-direction: column;
   }
 }
