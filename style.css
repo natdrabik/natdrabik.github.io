@@ -134,19 +134,22 @@ section {
 }
 
 #skills {
+  background-color: var(--foreground);
+  
   ul {
     display: flex;
     grid-gap: 100px;
     list-style: none;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   li {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    background-color: var(--secondary);
-    color: var(--copy);
+    background-color: var(--primary);
+    color: var(--copy-light);
     display: flex;
     align-items: center;
     justify-content: center;
