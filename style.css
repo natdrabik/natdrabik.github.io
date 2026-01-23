@@ -71,7 +71,10 @@ h1 {
   font-weight:900;
   font-size: 12cqh;
 }
-h2 { font-size: 18px; }
+h2 { 
+  /* font-size: 18px;  */
+  font-size: 8cqh; 
+}
 h3 { font-size: 16px; }
 
 pre {
