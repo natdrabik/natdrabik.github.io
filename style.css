@@ -153,3 +153,9 @@ section {
     flex-direction: column;
   }
 }
+
+#projects {
+  h3 { 
+    font-size: 4cqh; 
+  }
+}
