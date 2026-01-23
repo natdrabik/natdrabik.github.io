@@ -69,8 +69,12 @@ color: var(--primary);
   letter-spacing: 1px;
   font-weight:900;
 
+  i {
+    color: var(--secondary)
+  }
+
   span {
-    color: var(----foreground);
+    color: var(--foreground);
   }
 }
 h2 { font-size: 18px; }
