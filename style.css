@@ -132,3 +132,24 @@ section {
   scroll-snap-align: start;
   container-type: size;
 }
+
+#skills {
+  ul {
+    display: flex;
+    grid-gap: 100px;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+
+  li {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    color: var(--copy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+}
