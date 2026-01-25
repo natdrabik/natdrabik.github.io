@@ -236,4 +236,22 @@ section {
   h3 { 
     font-size: 2cqw; 
   }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+  }
+
+  article {
+    display: grid;
+    align-items: center;
+    border: 1px solid var(--primary-a0);
+    width: 100%;
+    border-radius: 30px;
+    background: var(--primary-a0);
+    filter: saturate(0.5);
+    grid-gap: 1.5cqw;
+    grid-template-columns: 1fr 3fr;
+  }
 }
