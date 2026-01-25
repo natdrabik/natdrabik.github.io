@@ -128,7 +128,7 @@ h2 {
 }
 h3 { 
   /* font-size: 16px; */
-  font-size: 3cqw; 
+  font-size: 2cqw; 
 }
 
 pre {
@@ -199,15 +199,34 @@ section {
 
   ul {
     display: flex;
-    grid-gap: 100px;
+    grid-gap: 3cqw;
     list-style: none;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
   }
 
   li {
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: 1px solid var(--primary-a0);
+    width: 15cqw;
+    height: 15cqw;
+    justify-content: center;
+    border-radius: 30px;
+    background: var(--primary-a0);
+    filter: saturate(0.5);
+    grid-gap: 2cqw;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  svg {
+    height: 5.5cqw;
   }
 }
 
