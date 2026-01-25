@@ -194,7 +194,7 @@ section {
 
 #skills {
   background-color: var(--foreground);
-  background: radial-gradient(circle at 50% 10%, var(--primary-a0) 15%, var(--background) 150%);
+  background: radial-gradient(circle at 30% 10%, var(--primary-a0) 15%, var(--background) 150%);
   grid-gap: 100px;
 
   ul {
@@ -218,7 +218,7 @@ section {
     border-radius: 30px;
     background: var(--primary-a0);
     filter: saturate(0.5);
-    grid-gap: 2cqw;
+    grid-gap: 1.5cqw;
   }
 
   h3 {
@@ -231,6 +231,8 @@ section {
 }
 
 #projects {
+  background: radial-gradient(circle at 50% 50%, var(--primary-a0) 15%, #000 100%);
+
   h3 { 
     font-size: 2cqw; 
   }
