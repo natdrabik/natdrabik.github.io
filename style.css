@@ -189,11 +189,12 @@ section {
 
 #intro {
   /* background: linear-gradient(124deg, var(--surface-tonal-a0) 0%, var(--primary-a0) 100%); */
-  background: radial-gradient(circle at 80% 90%, var(--primary-a0) 15%, #000 100%);
+  background: radial-gradient(circle at 50% 10%, var(--primary-a0) 15%, #000 100%);
 }
 
 #skills {
   background-color: var(--foreground);
+  background: radial-gradient(circle at 50% 10%, var(--primary-a0) 15%, var(--background) 150%);
   grid-gap: 100px;
 
   ul {
