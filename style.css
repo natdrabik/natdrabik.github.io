@@ -234,7 +234,8 @@ section {
   background: radial-gradient(circle at 50% 50%, var(--primary-a0) 15%, #000 100%);
 
   h3 { 
-    font-size: 2cqw; 
+    font-size: 2cqw;
+    margin: 0;
   }
 
   .grid {
@@ -253,5 +254,6 @@ section {
     filter: saturate(0.5);
     grid-gap: 1.5cqw;
     grid-template-columns: 1fr 3fr;
+    padding: 20px;
   }
 }
