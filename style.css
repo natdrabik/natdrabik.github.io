@@ -236,6 +236,13 @@ section {
   h3 { 
     font-size: 2cqw;
     margin: 0;
+    color: var(--primary-a50);
+  }
+
+  h4 {
+    color: var(--primary-a20);
+    margin: 0;
+    margin-top: 10px;
   }
 
   .grid {
@@ -255,6 +262,6 @@ section {
     filter: saturate(0.5) drop-shadow(0px 0px 1px var(--primary-dark));
     grid-gap: 1.5cqw;
     grid-template-columns: 1fr 3fr;
-    padding: 20px;
+    padding: 20px 40px;
   }
 }
