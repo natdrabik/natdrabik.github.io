@@ -177,7 +177,6 @@ button {
 }
 
 section {
-  height: 100vh;
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -213,6 +212,6 @@ section {
 
 #projects {
   h3 { 
-    font-size: 4cqw; 
+    font-size: 2cqw; 
   }
 }
