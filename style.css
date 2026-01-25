@@ -70,15 +70,15 @@ h1 {
   color: var(--primary);
   letter-spacing: 1px;
   font-weight:900;
-  font-size: 12cqh;
+  font-size: 12cqw;
 }
 h2 { 
   /* font-size: 18px;  */
-  font-size: 8cqh; 
+  font-size: 8cqw; 
 }
 h3 { 
   /* font-size: 16px; */
-  font-size: 6cqh; 
+  font-size: 6cqw; 
 }
 
 pre {
@@ -158,6 +158,6 @@ section {
 
 #projects {
   h3 { 
-    font-size: 4cqh; 
+    font-size: 4cqw; 
   }
 }
