@@ -138,6 +138,10 @@ section {
   container-type: size;
 }
 
+#intro {
+  background: linear-gradient(124deg, var(--foreground) 0%, var(--primary) 100%);
+}
+
 #skills {
   background-color: var(--foreground);
   grid-gap: 100px;
