@@ -352,7 +352,8 @@ nav {
     background-color: var(--foreground);
   background: radial-gradient(circle at 30% 10%, var(--primary-a0) 15%, var(--background) 150%);
   grid-gap: 2cqw;
-  height: auto;
+  min-height: auto;
+      container-type: normal;
 
   ul {
     display: flex;
@@ -379,7 +380,7 @@ nav {
   }
 
   svg {
-    height: 2cqw;
-    flex: 0 0 2cqw;
+    height: 5cqw;
+    flex: 0 0 5cqw;
   }
 }
