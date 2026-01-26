@@ -261,6 +261,10 @@ nav {
     font-size: 1.5cqw;
   }
 
+  p {
+    margin: 0;
+  }
+
   .grid {
     display: flex;
     flex-direction: column;
