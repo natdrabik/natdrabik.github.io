@@ -197,7 +197,7 @@ nav {
   ul {
     display: flex;
     list-style: none;
-    grid-gap: 30px;
+    grid-gap: 30px 50px;
   }
 }
 
