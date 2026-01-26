@@ -292,5 +292,14 @@ nav {
     /* grid-template-columns: 4fr 1fr 1fr; */
     /* padding: 20px 40px; */
     overflow: hidden;
+
+    figure {
+      width: 100%;
+      margin: 0;
+
+      img {
+        width: 100%;
+      }
+    }
   }
 }
