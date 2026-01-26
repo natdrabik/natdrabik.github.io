@@ -187,11 +187,14 @@ section {
   container-type: size;
 }
 
-#nav {
+nav {
   position: fixed;
 
   ul {
     display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    grid-gap: 30px;
   }
 }
 
