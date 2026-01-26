@@ -347,8 +347,31 @@ nav {
 }
 
 #links {
-  height: auto;
-li {
-  list-style: none;
-}
+    background-color: var(--foreground);
+  background: radial-gradient(circle at 30% 10%, var(--primary-a0) 15%, var(--background) 150%);
+  grid-gap: 2cqw;
+
+  ul {
+    display: flex;
+    grid-gap: 3cqw;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid var(--primary-a0);
+    width: 15cqw;
+    height: 15cqw;
+    justify-content: center;
+    border-radius: 30px;
+    background: var(--primary-a0);
+    filter: saturate(0.5) drop-shadow(0px 0px 1px var(--primary-dark));
+    grid-gap: 1.5cqw;
+  }
 }
