@@ -199,17 +199,25 @@ nav {
     list-style: none;
     grid-gap: 30px 50px;
   }
+
+  li {
+    font-size: 1.2cqw;
+  }
 }
 
 #intro {
   /* background: linear-gradient(124deg, var(--surface-tonal-a0) 0%, var(--primary-a0) 100%); */
   background: radial-gradient(circle at 50% 10%, var(--primary-a0) 15%, #000 100%);
+
+  p {
+    font-size: 1.4cqw;
+  }
 }
 
 #skills {
   background-color: var(--foreground);
   background: radial-gradient(circle at 30% 10%, var(--primary-a0) 15%, var(--background) 150%);
-  grid-gap: 100px;
+  grid-gap: 2cqw;
 
   ul {
     display: flex;
@@ -250,7 +258,7 @@ nav {
   container-type: inline-size;
 
   h3 { 
-    font-size: 1.5cqw;
+    font-size: 1.7cqw;
     margin: 0;
     color: var(--primary);
   }
@@ -285,8 +293,8 @@ nav {
     /* border: 1px solid var(--primary-a0); */
     width: 100%;
     border-radius: 30px;
-    /* filter: drop-shadow(0px 0px 1px var(--primary-dark)); */
-    grid-gap: 1cqw;
+    filter: drop-shadow(0px 0px 1px var(--primary-dark));
+    grid-gap: 1.5cqw;
     /* grid-template-columns: 4fr 1fr 1fr; */
     /* padding: 20px 40px; */
     overflow: hidden;
