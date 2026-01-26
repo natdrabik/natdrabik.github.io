@@ -284,7 +284,6 @@ nav {
     border: 1px solid var(--primary-a0);
     width: 100%;
     border-radius: 30px;
-    background: var(--primary-a0);
     /* filter: drop-shadow(0px 0px 1px var(--primary-dark)); */
     grid-gap: 1.5cqw;
     /* grid-template-columns: 4fr 1fr 1fr; */
@@ -295,6 +294,7 @@ nav {
     figure {
       width: 100%;
       margin: 0;
+      z-index: 1;
 
       img {
         width: 100%;
@@ -311,9 +311,12 @@ nav {
     right: 0;
     bottom: 0;
     left: 0;
+    z-index: 0;
+    background: var(--primary-a0);
     }
 
   .info {
-    padding: 0 10px;
+    padding: 0 20px;
+    z-index: 1;
   }
 }
