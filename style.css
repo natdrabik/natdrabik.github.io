@@ -352,6 +352,7 @@ nav {
     background-color: var(--foreground);
   background: radial-gradient(circle at 30% 10%, var(--primary-a0) 15%, var(--background) 150%);
   grid-gap: 2cqw;
+  height: auto;
 
   ul {
     display: flex;
