@@ -155,13 +155,13 @@ p {
    Links — usando secundária
 ---------------------------------------- */
 a {
-  color: var(--clr-secondary-a40);
+  color: var(--primary-a50);
   text-decoration: none;
   transition: color .2s ease;
 }
 
 a:hover {
-  color: var(--clr-secondary-a10);
+  color: var(--clr-secondary-a40);
 }
 
 button {
@@ -191,6 +191,7 @@ nav {
   position: fixed;
   justify-content: flex-end;
   display: flex;
+  width: 100%;
 
   ul {
     display: flex;
