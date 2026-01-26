@@ -254,9 +254,10 @@ nav {
   }
 
   h4 {
-    color: var(--primary-a20);
+    color: var(--primary-a40);
     margin: 0;
     margin-top: 10px;
+    font-size: 1.5cqw;
   }
 
   .grid {
@@ -275,7 +276,7 @@ nav {
     background: var(--primary-a0);
     filter: saturate(0.5) drop-shadow(0px 0px 1px var(--primary-dark));
     grid-gap: 1.5cqw;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 4fr 1fr 1fr;
     padding: 20px 40px;
   }
 }
