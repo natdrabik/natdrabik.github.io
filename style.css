@@ -250,6 +250,7 @@ nav {
 
   svg {
     height: 5.5cqw;
+    flex: 0 0 5.5cqw;
   }
 }
 
@@ -300,6 +301,7 @@ nav {
     overflow: hidden;
     position: relative;
     padding-bottom: 20px;
+    height: 100%;
 
     figure {
       width: 100%;
@@ -365,13 +367,18 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 1px solid var(--primary-a0);
+    /* border: 1px solid var(--primary-a0); */
     width: 15cqw;
     height: 15cqw;
     justify-content: center;
-    border-radius: 30px;
+    /* border-radius: 30px;
     background: var(--primary-a0);
-    filter: saturate(0.5) drop-shadow(0px 0px 1px var(--primary-dark));
+    filter: saturate(0.5) drop-shadow(0px 0px 1px var(--primary-dark)); */
     grid-gap: 1.5cqw;
+  }
+
+  svg {
+    height: 2cqw;
+    flex: 0 0 2cqw;
   }
 }
