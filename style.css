@@ -345,3 +345,10 @@ nav {
     z-index: 1;
   }
 }
+
+#links {
+  height: auto;
+li {
+  list-style: none;
+}
+}
