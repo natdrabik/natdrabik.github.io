@@ -249,21 +249,14 @@ nav {
   container-type: inline-size;
 
   h3 { 
-    font-size: 2cqw;
+    font-size: 1.5cqw;
     margin: 0;
     color: var(--primary-a50);
   }
 
-  h4 {
-    color: var(--primary-a40);
+  /* p {
     margin: 0;
-    margin-top: 10px;
-    font-size: 1.5cqw;
-  }
-
-  p {
-    margin: 0;
-  }
+  } */
 
   /* .grid {
     display: flex;
