@@ -182,7 +182,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 30px;
   scroll-snap-align: start;
   container-type: size;
 }
@@ -399,6 +399,10 @@ nav {
 
   h3 { 
     font-size: 2cqw; 
+  }
+
+  section {
+    padding: 50px;
   }
 
   #intro {
