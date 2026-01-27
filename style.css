@@ -355,6 +355,7 @@ nav {
   grid-gap: 2cqw;
   min-height: auto;
       container-type: normal;
+      
 
   ul {
     display: flex;
@@ -381,7 +382,8 @@ nav {
   }
 
   svg {
-    height: 3cqw;
-    flex: 0 0 3cqw;
+    height: 2cqw;
+    width: 2cqw;
+    flex: 0 0 2cqw;
   }
 }
