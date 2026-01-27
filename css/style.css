@@ -128,7 +128,7 @@ h2 {
 }
 h3 { 
   /* font-size: 16px; */
-  font-size: 2cqw; 
+  font-size: 4cqw; 
 }
 
 pre {
@@ -395,6 +395,10 @@ nav {
 
   h2 { 
     font-size: 5cqw; 
+  }
+
+  h3 { 
+    font-size: 2cqw; 
   }
 
   #intro {
