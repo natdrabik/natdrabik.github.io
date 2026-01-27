@@ -388,6 +388,10 @@ nav {
   }
 }
 
+@media (min-width: 1000px) {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 @media (min-width: 600px) {
   #projects {
     .grid {
@@ -397,6 +401,3 @@ nav {
   }
 }
 
-@media (min-width: 1000px) {
-  grid-template-columns: repeat(3, 1fr);
-}
