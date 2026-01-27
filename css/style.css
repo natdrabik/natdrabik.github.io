@@ -235,8 +235,8 @@ nav {
     align-items: center;
     flex-direction: column;
     border: 1px solid var(--primary-a0);
-    width: 15cqw;
-    height: 15cqw;
+    width: 30cqw;
+    height: 30cqw;
     justify-content: center;
     border-radius: 30px;
     background: var(--primary-a0);
@@ -402,6 +402,14 @@ nav {
       font-size: 1.4cqw;
     }
   }
+
+  #skills {
+    li {
+      width: 15cqw;
+      height: 15cqw;
+    }
+  }
+
   #projects {
     .grid {
       display: grid;
