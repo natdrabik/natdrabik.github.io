@@ -420,6 +420,11 @@ nav {
       height: 15cqw;
       border-radius: 30px;
     }
+
+    svg {
+      height: 5.5cqw;
+      flex: 0 0 5.5cqw;
+    }
   }
 
   #projects {
@@ -428,10 +433,7 @@ nav {
       grid-template-columns: repeat(2, 1fr);
     }
 
-    svg {
-      height: 5.5cqw;
-      flex: 0 0 5.5cqw;
-    }
+    
   }
 }
 
