@@ -250,8 +250,8 @@ nav {
   }
 
   svg {
-    height: 5.5cqw;
-    flex: 0 0 5.5cqw;
+    height: 2.5cqw;
+    flex: 0 0 2.5cqw;
   }
 }
 
@@ -416,6 +416,11 @@ nav {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
     }
+
+    svg {
+      height: 5.5cqw;
+      flex: 0 0 5.5cqw;
+    }
   }
 }
 
@@ -425,5 +430,7 @@ nav {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
     }
+
+
   }
 }
