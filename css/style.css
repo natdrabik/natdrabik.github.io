@@ -235,8 +235,8 @@ nav {
     align-items: center;
     flex-direction: column;
     border: 1px solid var(--primary-a0);
-    width: 30cqw;
-    height: 30cqw;
+    width: 28cqw;
+    height: 28cqw;
     justify-content: center;
     border-radius: 15px;
     background: var(--primary-a0);
