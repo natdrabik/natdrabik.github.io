@@ -210,7 +210,7 @@ nav {
   background: radial-gradient(circle at 50% 10%, var(--primary-a0) 15%, #000 100%);
 
   p {
-    font-size: 1.4cqw;
+    font-size: 16px;
   }
 }
 
@@ -391,6 +391,12 @@ nav {
 @media (min-width: 600px) {
   h1 { 
     font-size: 7cqw;
+  }
+
+  #intro {
+    p {
+      font-size: 1.4cqw;
+    }
   }
   #projects {
     .grid {
