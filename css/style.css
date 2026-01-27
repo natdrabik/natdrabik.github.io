@@ -222,7 +222,7 @@ nav {
 
   ul {
     display: flex;
-    grid-gap: 3cqw;
+    grid-gap: 6cqw;
     list-style: none;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -404,6 +404,9 @@ nav {
   }
 
   #skills {
+    ul {
+      grid-gap: 3cqw;
+    }
     li {
       width: 15cqw;
       height: 15cqw;
