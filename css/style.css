@@ -283,7 +283,8 @@ nav {
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 30px 40px;
     margin-top: 20px;
   }
@@ -386,4 +387,7 @@ nav {
     width: 2cqw;
     flex: 0 0 2cqw;
   }
+}
+
+@media (min-width: 600px) {
 }
