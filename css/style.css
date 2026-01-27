@@ -124,7 +124,7 @@ h1 {
 }
 h2 { 
   /* font-size: 18px;  */
-  font-size: 5cqw; 
+  font-size: 10cqw; 
 }
 h3 { 
   /* font-size: 16px; */
@@ -391,6 +391,10 @@ nav {
 @media (min-width: 600px) {
   h1 { 
     font-size: 7cqw;
+  }
+
+  h2 { 
+    font-size: 5cqw; 
   }
 
   #intro {
