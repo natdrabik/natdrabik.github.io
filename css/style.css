@@ -260,7 +260,7 @@ nav {
   container-type: inline-size;
 
   h3 { 
-    font-size: 1.7cqw;
+    font-size: 6cqw;
     margin: 0;
     color: var(--primary);
   }
@@ -433,7 +433,9 @@ nav {
       grid-template-columns: repeat(2, 1fr);
     }
 
-    
+    h3 { 
+      font-size: 1.7cqw;
+    }
   }
 }
 
