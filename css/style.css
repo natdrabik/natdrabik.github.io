@@ -297,13 +297,13 @@ nav {
     width: 100%;
     border-radius: 30px;
     filter: drop-shadow(0px 0px 1px var(--primary-dark));
-    grid-gap: 1.5cqw;
     /* grid-template-columns: 4fr 1fr 1fr; */
     /* padding: 20px 40px; */
     overflow: hidden;
     position: relative;
     padding-bottom: 20px;
     height: 100%;
+    grid-gap: 5cqw;
 
     figure {
       width: 100%;
@@ -441,6 +441,10 @@ nav {
 
     h3 { 
       font-size: 1.7cqw;
+    }
+
+    article {
+      grid-gap: 1.5cqw;
     }
   }
 }
