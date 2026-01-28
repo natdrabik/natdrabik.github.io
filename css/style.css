@@ -125,6 +125,7 @@ h1 {
 h2 { 
   /* font-size: 18px;  */
   font-size: 10cqw; 
+  margin-bottom: 12cqw;
 }
 h3 { 
   /* font-size: 16px; */
@@ -242,10 +243,6 @@ nav {
     background: var(--primary-a0);
     filter: saturate(0.5) drop-shadow(0px 0px 1px var(--primary-dark));
     grid-gap: 1.5cqw;
-  }
-
-  h2 {
-    margin-bottom: 12cqw;
   }
 
   h3 {
