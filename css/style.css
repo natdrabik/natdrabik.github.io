@@ -120,7 +120,7 @@ h1 {
   color: var(--primary);
   letter-spacing: 1px;
   font-weight:900;
-  font-size: 7cqw;
+  font-size: 14cqw;
 }
 h2 { 
   /* font-size: 18px;  */
@@ -390,7 +390,7 @@ nav {
 
 @media (min-width: 600px) {
   h1 { 
-    font-size: 7cqw;
+    font-size: 6cqw;
   }
 
   h2 { 
