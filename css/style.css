@@ -250,8 +250,8 @@ nav {
   }
 
   svg {
-    height: 5cqw;
-    flex: 0 0 5cqw;
+    height: 10cqw;
+    flex: 0 0 10cqw;
   }
 }
 
@@ -422,8 +422,8 @@ nav {
     }
 
     svg {
-      height: 10cqw;
-      flex: 0 0 10cqw;
+      height: 5cqw;
+      flex: 0 0 5cqw;
     }
   }
 
