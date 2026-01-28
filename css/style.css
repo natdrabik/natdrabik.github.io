@@ -301,7 +301,7 @@ nav {
     /* padding: 20px 40px; */
     overflow: hidden;
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     height: 100%;
     grid-gap: 5cqw;
 
@@ -445,6 +445,7 @@ nav {
 
     article {
       grid-gap: 1.5cqw;
+      padding-bottom: 20px;
     }
   }
 }
