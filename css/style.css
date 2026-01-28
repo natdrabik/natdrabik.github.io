@@ -128,7 +128,7 @@ h2 {
 }
 h3 { 
   /* font-size: 16px; */
-  font-size: 4cqw; 
+  font-size: 3.5cqw; 
 }
 
 pre {
@@ -242,6 +242,10 @@ nav {
     background: var(--primary-a0);
     filter: saturate(0.5) drop-shadow(0px 0px 1px var(--primary-dark));
     grid-gap: 1.5cqw;
+  }
+
+  h2 {
+    margin-bottom: 12cqw;
   }
 
   h3 {
@@ -419,11 +423,16 @@ nav {
       width: 15cqw;
       height: 15cqw;
       border-radius: 30px;
+      grid-gap: 2.5cqw;
     }
 
     svg {
       height: 5cqw;
       flex: 0 0 5cqw;
+    }
+
+    h2 {
+      margin-bottom: 6cqw;
     }
   }
 
