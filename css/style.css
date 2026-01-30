@@ -420,7 +420,7 @@ nav {
 
   nav {
     position: fixed;
-    justify-content: flex-end;
+    justify-content: center;
     display: flex;
     width: 100%;
     height: auto;
@@ -431,6 +431,7 @@ nav {
       display: flex;
       list-style: none;
       grid-gap: 30px 50px;
+      flex-direction: column;
     }
 
     li {
