@@ -433,6 +433,12 @@ nav {
       height: 5cqw;
       flex: 0 0 5cqw;
     }
+
+    h3 {
+      height: 4cqw;
+      display: flex;
+      align-items: center;
+    }
   }
 
   #projects {
