@@ -200,7 +200,6 @@ nav {
   padding: 10px 50px;
   height: 100vh;
   flex-direction: column;
-  filter: saturate(0.5);
   background: var(--primary-a0);
 
   ul {
