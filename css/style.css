@@ -200,6 +200,7 @@ nav {
   padding: 10px 50px;
   height: 100vh;
   flex-direction: column;
+  filter: saturate(0.5);
 
   ul {
     display: flex;
@@ -426,6 +427,7 @@ nav {
     height: auto;
     padding: 10px 50px;
     flex-direction: row;
+    filter: none;
 
     ul {
       display: flex;
