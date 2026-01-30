@@ -392,9 +392,9 @@ nav {
   }
 
   svg {
-    height: 2cqw;
-    width: 2cqw;
-    flex: 0 0 2cqw;
+            height: 12cqw;
+        width: 12cqw;
+        flex: 0 0 12cqw;
   }
 }
 
@@ -462,6 +462,14 @@ nav {
     article {
       grid-gap: 1.5cqw;
       padding-bottom: 20px;
+    }
+  }
+
+  #links {
+    svg {
+      height: 2cqw;
+      width: 2cqw;
+      flex: 0 0 2cqw;
     }
   }
 }
