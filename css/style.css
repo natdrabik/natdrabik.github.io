@@ -132,6 +132,10 @@ h3 {
   font-size: 3.5cqw; 
 }
 
+h4 {
+  font-size: 5cqw;
+}
+
 pre {
   padding: 5px 15px;
   background: var(--foreground);
@@ -449,6 +453,10 @@ nav {
 
     h3 { 
       font-size: 1.7cqw;
+    }
+
+    h4 {
+
     }
 
     article {
