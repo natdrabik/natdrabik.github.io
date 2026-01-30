@@ -395,7 +395,8 @@ nav {
   }
 
   h2 { 
-    font-size: 5cqw; 
+    font-size: 5cqw;
+    margin-bottom: 6cqw;
   }
 
   h3 { 
@@ -427,10 +428,6 @@ nav {
       height: 5cqw;
       flex: 0 0 5cqw;
     }
-
-    /* h2 {
-      margin-bottom: 6cqw;
-    } */
   }
 
   #projects {
