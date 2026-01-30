@@ -416,6 +416,24 @@ nav {
     padding: 50px;
   }
 
+  nav {
+    position: fixed;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    padding: 10px 50px;
+
+    ul {
+      display: flex;
+      list-style: none;
+      grid-gap: 30px 50px;
+    }
+
+    li {
+      font-size: 1.2cqw;
+    }
+  }
+
   #intro {
     p {
       font-size: 1.4cqw;
