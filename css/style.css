@@ -242,12 +242,17 @@ nav {
     border-radius: 15px;
     background: var(--primary-a0);
     filter: saturate(0.5) drop-shadow(0px 0px 1px var(--primary-dark));
-    grid-gap: 1.5cqw;
+    /* grid-gap: 1.5cqw; */
+    grid-gap: 10px;
+    padding-top: 10px;
   }
 
   h3 {
     margin: 0;
     text-align: center;
+    height: 4cqw;
+    display: flex;
+    align-items: center;
   }
 
   svg {
@@ -395,8 +400,8 @@ nav {
   }
 
   h2 { 
-    font-size: 5cqw;
-    margin-bottom: 6cqw;
+    font-size: 4cqw;
+    margin-bottom: 3cqw;
   }
 
   h3 { 
@@ -415,11 +420,11 @@ nav {
 
   #skills {
     ul {
-      grid-gap: 3cqw;
+      grid-gap: 2.5cqw;
     }
     li {
-      width: 15cqw;
-      height: 15cqw;
+      width: 14cqw;
+      height: 14cqw;
       border-radius: 30px;
       grid-gap: 2.5cqw;
     }
