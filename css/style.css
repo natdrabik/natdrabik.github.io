@@ -375,7 +375,7 @@ nav {
 
   ul {
     display: flex;
-    grid-gap: 2cqw;
+    grid-gap: 10cqw;
     list-style: none;
     flex-wrap: wrap;
     justify-content: center;
@@ -503,7 +503,7 @@ nav {
     }
 
     ul {
-      grid-gap: 10cqw;
+      grid-gap: 2cqw;
       justify-content: flex-start;
     }
   }
