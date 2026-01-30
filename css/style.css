@@ -207,6 +207,9 @@ nav {
     display: flex;
     list-style: none;
     grid-gap: 30px 50px;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
   }
 
   li {
