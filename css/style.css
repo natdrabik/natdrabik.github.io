@@ -194,7 +194,7 @@ section {
 
 nav {
   position: fixed;
-  justify-content: flex-end;
+  justify-content: center;
   display: flex;
   width: 100%;
   padding: 10px 50px;
@@ -422,7 +422,7 @@ nav {
 
   nav {
     position: fixed;
-    justify-content: center;
+    justify-content: flex-end;
     display: flex;
     width: 100%;
     height: auto;
