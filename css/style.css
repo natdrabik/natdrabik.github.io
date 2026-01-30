@@ -426,7 +426,6 @@ nav {
       width: 14cqw;
       height: 14cqw;
       border-radius: 30px;
-      grid-gap: 2.5cqw;
     }
 
     svg {
@@ -438,6 +437,7 @@ nav {
       height: 4cqw;
       display: flex;
       align-items: center;
+      font-size: 1.6cqw;
     }
   }
 
