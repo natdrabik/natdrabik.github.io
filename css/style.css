@@ -471,6 +471,11 @@ nav {
       width: 2cqw;
       flex: 0 0 2cqw;
     }
+
+    ul {
+      grid-gap: 10cqw;
+      justify-content: center;
+    }
   }
 }
 
