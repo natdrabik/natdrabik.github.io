@@ -192,7 +192,7 @@ section {
   container-type: size;
 }
 
-nav {
+nav.active {
   position: fixed;
   justify-content: center;
   display: flex;
@@ -206,12 +206,13 @@ nav {
     border: 0;
     background: transparent;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 30px;
+    top: 30px;
     margin: 0;
     padding: 0;
     width: 40px;
     height: 40px;
+    display: none;
 
     span {
       font-size: 0;
@@ -220,6 +221,14 @@ nav {
     svg {
       width: 40px;
       height: 40px;
+    }
+
+    .open {
+      display: block;
+    }
+
+    .close {
+      display: none;
     }
   }
 
@@ -464,6 +473,10 @@ nav {
 
     li {
       font-size: 1.2cqw;
+    }
+
+    button {
+      display: block;
     }
   }
 
