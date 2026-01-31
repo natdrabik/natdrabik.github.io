@@ -212,7 +212,7 @@ nav.active {
     padding: 0;
     width: 40px;
     height: 40px;
-    display: none;
+    display: block;
 
     span {
       font-size: 0;
@@ -476,7 +476,7 @@ nav.active {
     }
 
     button {
-      display: block;
+      display: none;
     }
   }
 
