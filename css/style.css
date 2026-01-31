@@ -214,11 +214,11 @@ nav button {
   }
 
   .open {
-    display: none;
+    display: block;
   }
 
   .close {
-    display: block;
+    display: none;
   }
 }
 
