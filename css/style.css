@@ -192,6 +192,10 @@ section {
   container-type: size;
 }
 
+nav button {
+  display: block;
+}
+
 nav.active {
   position: fixed;
   justify-content: center;
@@ -212,7 +216,6 @@ nav.active {
     padding: 0;
     width: 40px;
     height: 40px;
-    display: block;
 
     span {
       font-size: 0;
@@ -224,11 +227,11 @@ nav.active {
     }
 
     .open {
-      display: block;
+      display: none;
     }
 
     .close {
-      display: none;
+      display: block;
     }
   }
 
