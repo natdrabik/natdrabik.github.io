@@ -203,6 +203,23 @@ nav button {
   padding: 0;
   width: 40px;
   height: 40px;
+
+  span {
+    font-size: 0;
+  }
+
+  svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .open {
+    display: none;
+  }
+
+  .close {
+    display: block;
+  }
 }
 
 nav.active {
