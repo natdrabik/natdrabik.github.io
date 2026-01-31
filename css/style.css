@@ -205,9 +205,16 @@ nav {
   button {
     border: 0;
     background: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
 
     span {
       font-size: 0;
+    }
+
+    svg {
+      width: 40px;
     }
   }
 
