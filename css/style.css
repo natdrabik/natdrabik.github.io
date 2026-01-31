@@ -202,6 +202,15 @@ nav {
   flex-direction: column;
   background: var(--primary-a0);
 
+  button {
+    border: 0;
+    background: transparent;
+
+    span {
+      font-size: 0;
+    }
+  }
+
   ul {
     display: flex;
     list-style: none;
