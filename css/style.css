@@ -192,40 +192,37 @@ section {
   container-type: size;
 }
 
-nav {
-  button {
-    display: block;
-    border: 0;
-    background: transparent;
-    position: sticky;
-    right: 30px;
-    top: 30px;
-    margin: 0;
-    padding: 0;
+#btMenu {
+  display: block;
+  border: 0;
+  background: transparent;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+
+  span {
+    font-size: 0;
+  }
+
+  svg {
     width: 40px;
     height: 40px;
+  }
 
-    span {
-      font-size: 0;
-    }
+  .open {
+    display: block;
+  }
 
-    svg {
-      width: 40px;
-      height: 40px;
-    }
-
-    .open {
-      display: block;
-    }
-
-    .close {
-      display: none;
-    
-    }
+  .close {
+    display: none;
   }
 }
 
-nav.active {
+#btMenu.active {
   position: fixed;
   justify-content: center;
   display: flex;
@@ -235,25 +232,25 @@ nav.active {
   flex-direction: column;
   background: var(--primary-a0);
 
-  button {
-    span {
-      font-size: 0;
-    }
-
-    svg {
-      width: 40px;
-      height: 40px;
-    }
-
-    .open {
-      display: none;
-    }
-
-    .close {
-      display: block;
-    }
+  span {
+    font-size: 0;
   }
 
+  svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .open {
+    display: none;
+  }
+
+  .close {
+    display: block;
+  }
+}
+
+nav {
   ul {
     display: flex;
     list-style: none;
