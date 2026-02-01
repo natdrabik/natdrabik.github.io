@@ -233,6 +233,16 @@ section {
   flex-direction: column;
   background: var(--primary-a0);
   z-index: 1;
+
+  #btMenu {
+   .open {
+      display: none;
+    }
+
+    .close {
+      display: block;
+    } 
+  }
 }
 
 nav {
