@@ -203,6 +203,7 @@ section {
   padding: 0;
   width: 40px;
   height: 40px;
+  z-index: 2;
 
   span {
     font-size: 0;
@@ -232,25 +233,6 @@ section {
   flex-direction: column;
   background: var(--primary-a0);
   z-index: 1;
-}
-
-#btMenu {
-  span {
-    font-size: 0;
-  }
-
-  svg {
-    width: 40px;
-    height: 40px;
-  }
-
-  .open {
-    display: none;
-  }
-
-  .close {
-    display: block;
-  }
 }
 
 nav {
