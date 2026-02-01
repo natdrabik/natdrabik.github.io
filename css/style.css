@@ -223,6 +223,22 @@ section {
   }
 }
 
+nav {
+  display: none;
+  ul {
+    display: flex;
+    list-style: none;
+    grid-gap: 30px 50px;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    font-size: 8cqw;
+  }
+}
+
 .has-menu {
   #btMenu {
    .open {
@@ -243,21 +259,6 @@ section {
   flex-direction: column;
   background: var(--primary-a0);
   z-index: 1;
-  }
-}
-
-nav {
-  ul {
-    display: flex;
-    list-style: none;
-    grid-gap: 30px 50px;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    font-size: 8cqw;
   }
 }
 
