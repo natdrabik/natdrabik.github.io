@@ -192,33 +192,36 @@ section {
   container-type: size;
 }
 
-nav button {
-  display: block;
-  border: 0;
-  background: transparent;
-  position: absolute;
-  right: 30px;
-  top: 30px;
-  margin: 0;
-  padding: 0;
-  width: 40px;
-  height: 40px;
-
-  span {
-    font-size: 0;
-  }
-
-  svg {
+nav {
+  button {
+    display: block;
+    border: 0;
+    background: transparent;
+    position: sticky;
+    right: 30px;
+    top: 30px;
+    margin: 0;
+    padding: 0;
     width: 40px;
     height: 40px;
-  }
 
-  .open {
-    display: block;
-  }
+    span {
+      font-size: 0;
+    }
 
-  .close {
-    display: none;
+    svg {
+      width: 40px;
+      height: 40px;
+    }
+
+    .open {
+      display: block;
+    }
+
+    .close {
+      display: none;
+    
+    }
   }
 }
 
