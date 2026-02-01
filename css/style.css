@@ -196,7 +196,7 @@ section {
   display: block;
   border: 0;
   background: transparent;
-  position: absolute;
+  position: fixed;
   right: 30px;
   top: 30px;
   margin: 0;
