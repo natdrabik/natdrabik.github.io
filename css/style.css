@@ -222,7 +222,7 @@ section {
   }
 }
 
-#btMenu.active {
+nav.active {
   position: fixed;
   justify-content: center;
   display: flex;
@@ -231,7 +231,9 @@ section {
   height: 100vh;
   flex-direction: column;
   background: var(--primary-a0);
+}
 
+#btMenu {
   span {
     font-size: 0;
   }
@@ -250,7 +252,7 @@ section {
   }
 }
 
-nav.active {
+nav {
   ul {
     display: flex;
     list-style: none;
