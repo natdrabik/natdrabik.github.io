@@ -222,7 +222,7 @@ section {
   }
 }
 
-nav.active {
+.has-menu nav {
   position: fixed;
   justify-content: center;
   display: flex;
@@ -499,6 +499,17 @@ nav {
     button {
       display: none;
     }
+  }
+
+  .has-menu nav {
+    position: fixed;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    padding: 10px 50px;
+    height: auto;
+    flex-direction: row;
+    background: none;
   }
 
   #intro {
