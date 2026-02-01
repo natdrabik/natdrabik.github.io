@@ -467,6 +467,10 @@ nav {
     padding: 50px;
   }
 
+  #btMenu {
+    display: none;
+  }
+
   nav {
     position: fixed;
     justify-content: flex-end;
@@ -488,10 +492,6 @@ nav {
 
     li {
       font-size: 1.2cqw;
-    }
-
-    button {
-      display: none;
     }
   }
 
