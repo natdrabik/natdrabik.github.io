@@ -19,8 +19,12 @@ function closeMenu() {
 }
 
 
-
-gsap.to('#skills', {
-    scrollTrigger: '#skills', // start animation when ".box" enters the viewport
-    x: 500
-});
+var tl = gsap.timeline();
+tl.to('#intro h1 .h1a', {
+    scrollTrigger: '#intro',
+    opacity: 0
+})
+.to('#intro h1 .h1b', {
+    scrollTrigger: '#intro',
+    x:100
+    })
