@@ -20,11 +20,11 @@ function closeMenu() {
 
 
 var tl = gsap.timeline();
-tl.to('#intro h1 .h1a', {
-    scrollTrigger: '#intro',
-    opacity: 0
-})
-.to('#intro h1 .h1b', {
+tl.to('#intro h1 .h1b', {
     scrollTrigger: '#intro',
     x:100
     })
+// .to('#intro h1 .h1a', {
+//     scrollTrigger: '#intro',
+//     opacity: 0
+// })
