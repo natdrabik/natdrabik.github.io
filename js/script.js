@@ -29,7 +29,12 @@ tl.to('#intro h1 .h1a', {
     duration: .5,
     delay:1
 })
+.from('#intro p', {
+  y: 10,
+  opacity:0,
+  duration: .5
+}, "<")
 .from('#intro h1 .h1b', {
   x: 0,
   duration: 1
-}, "-=.5");
+}, "<")
