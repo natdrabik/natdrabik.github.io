@@ -19,12 +19,17 @@ function closeMenu() {
 }
 
 
-var tl = gsap.timeline();
+var tl = gsap.timeline({
+    scrollTrigger: {
+        trigger: "#intro",
+    }
+});
 tl.to('#intro h1 .h1a', {
-    scrollTrigger: '#intro',
-    opacity:0
+    opacity:0,
+    duration: .5,
+    delay:1
 })
-.to('#intro h1 .h1b', {
-    scrollTrigger: '#intro',
-    opacity:50
-    })
+.from('#intro h1 .h1b', {
+  x: 0,
+  duration: 1
+}, "-=.5");
