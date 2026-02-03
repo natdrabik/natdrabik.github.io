@@ -22,7 +22,7 @@ function closeMenu() {
 var tl = gsap.timeline();
 tl.to('#intro h1 .h1b', {
     scrollTrigger: '#intro',
-    opacity: 0
+    x:100
 })
 .to('#intro h1 .h1b', {
     scrollTrigger: '#intro',
