@@ -1,3 +1,5 @@
+gsap.registerPlugin(ScrollTrigger);
+
 var btMenu = document.getElementById('btMenu');
 var menu = document.getElementById('menu');
 var linksMenu = menu.querySelectorAll('a');
@@ -15,3 +17,10 @@ for (linkMenu of linksMenu) {
 function closeMenu() {
     document.body.classList.remove('has-menu');
 }
+
+
+
+gsap.to('#skills', {
+    scrollTrigger: '#skills', // start animation when ".box" enters the viewport
+    x: 500
+});
