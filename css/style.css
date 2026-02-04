@@ -275,7 +275,7 @@ nav {
 
   h1 .h1b {
     margin-left: 2cqw;
-    transform:  translate(-14cqw, 0px)
+    transform:  translate(-30cqw, 0px)
   }
 }
 
@@ -527,6 +527,11 @@ nav {
     p {
       font-size: 1.4cqw;
     }
+
+    h1 .h1b {
+    margin-left: 2cqw;
+    transform:  translate(-14cqw, 0px)
+  }
   }
 
   #skills {
