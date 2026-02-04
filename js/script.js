@@ -24,17 +24,76 @@ var tl = gsap.timeline({
         trigger: "#intro",
     }
 });
-tl.to('#intro h1 .h1a', {
-    opacity:0,
-    duration: .5,
-    delay:1
+tl.from('#intro h1', {
+    y: 10,
+  opacity:0,
+  duration: .5
 })
-.from('#intro p', {
+.from('#menu', {
   y: 10,
   opacity:0,
   duration: .5
 }, "<")
+.to('#intro h1 .h1a', {
+    opacity:0,
+    duration: .5,
+    delay:1
+})
 .from('#intro h1 .h1b', {
   x: 0,
   duration: 1
 }, "<")
+.from('#intro p', {
+  y: 10,
+  opacity:0,
+  duration: .5
+}, "-=2")
+
+var tlSkills = gsap.timeline({
+    scrollTrigger: {
+        trigger: "#skills",
+    }
+})
+tlSkills.from('#skills h2', {
+    y: 10,
+  opacity:0,
+  duration: .5,
+  delay:.5
+})
+.from('#skills li', {
+  y: 10,
+  opacity:0,
+  duration: .5,
+  stagger: 0.2
+})
+
+var tlProjects = gsap.timeline({
+    scrollTrigger: {
+        trigger: "#projects",
+    }
+})
+tlProjects.from('#projects h2', {
+    y: 10,
+  opacity:0,
+  duration: .5,
+  delay:.5
+})
+.from('#projects article', {
+  y: 10,
+  opacity:0,
+  duration: .5,
+  stagger: 0.2
+})
+
+var tlProjects = gsap.timeline({
+    scrollTrigger: {
+        trigger: "#links",
+    }
+})
+.from('#links a', {
+  y: 10,
+  opacity:0,
+  duration: .5,
+  stagger: 0.2,
+  delay:.5
+})
