@@ -390,6 +390,7 @@ nav {
       bottom: 0;
       mix-blend-mode: color;
       filter: opacity(0.3);
+      transition: 0.5s;
     }
   }
 
@@ -409,6 +410,10 @@ nav {
   article:hover {
     img {
       scale: 1.1;
+      transition: 0.5s;
+    }
+    figure:before {
+      filter: opacity(0);
       transition: 0.5s;
     }
   }
