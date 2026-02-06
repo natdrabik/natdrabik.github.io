@@ -374,7 +374,7 @@ nav {
         bottom: 0;
         left: 0;
         scale: 1;
-        transition: 0.2s;
+        transition: 0.5s;
       }
     }
 
@@ -407,7 +407,7 @@ nav {
   article:hover {
     img {
       scale: 1.1;
-      transition: 0.2s;
+      transition: 0.5s;
     }
   }
 
