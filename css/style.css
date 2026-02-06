@@ -363,6 +363,8 @@ nav {
       z-index: 1;
       position:relative;
       aspect-ratio: 390/190;
+      height: auto;
+      overflow: hidden;
 
       img {
         width: 100%;
