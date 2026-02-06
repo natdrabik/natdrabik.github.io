@@ -391,6 +391,7 @@ nav {
       mix-blend-mode: color;
       filter: opacity(0.3);
       transition: 0.5s;
+      z-index: 1;
     }
   }
 
@@ -405,7 +406,6 @@ nav {
     left: 0;
     z-index: 0;
     background: var(--primary-a0);
-    z-index: 1;
   }
 
   article:hover {
