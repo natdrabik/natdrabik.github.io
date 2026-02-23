@@ -284,6 +284,11 @@ nav {
   grid-gap: 2cqw;
   container-type: inline-size;
 
+  .about-me img {
+    width: 30vw;
+    mix-blend-mode: color-burn;
+  }
+
   ul {
     display: flex;
     grid-gap: 6cqw;
