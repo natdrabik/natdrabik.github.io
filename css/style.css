@@ -299,7 +299,7 @@ nav {
 
   ul {
     display: flex;
-    grid-gap: 6cqw;
+    grid-gap: 4cqw;
     list-style: none;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -312,8 +312,8 @@ nav {
     align-items: center;
     flex-direction: column;
     border: 1px solid var(--primary-a0);
-    width: 15cqw;
-    height: 15cqw;
+    width: 12cqw;
+    height: 12cqw;
     justify-content: center;
     border-radius: 15px;
     background: var(--primary-a0);
@@ -328,11 +328,12 @@ nav {
     height: 4cqw;
     display: flex;
     align-items: center;
+    font-size: 1.5cqw;
   }
 
   svg {
-    height: 10cqw;
-    flex: 0 0 10cqw;
+    height: 5cqw;
+    flex: 0 0 5cqw;
   }
 }
 
