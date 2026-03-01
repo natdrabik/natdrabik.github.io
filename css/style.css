@@ -284,13 +284,10 @@ nav {
   /* grid-gap: 2cqw; */
   container-type: inline-size;
 
-  .about-grid {
+  .about-me {
     display: grid;
     grid-gap: 10cqw;
     grid-template-columns: 1fr 1fr;
-  }
-
-  .about-me {
     
     img {
       width: 17vw;
