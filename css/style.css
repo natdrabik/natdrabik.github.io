@@ -155,7 +155,7 @@ p {
   margin-bottom: 1rem;
   
   strong, b {
-    color: var(--secondary);
+    color: var(--primary);
   }
 }
 
