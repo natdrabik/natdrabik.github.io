@@ -51,6 +51,30 @@ tl.from('#intro h1', {
 
 var tlSkills = gsap.timeline({
     scrollTrigger: {
+        trigger: "#about",
+    }
+})
+tlSkills.from('#about h2', {
+    y: 10,
+  opacity:0,
+  duration: .5,
+  delay:.5
+})
+tlSkills.from('#about img', {
+    y: 10,
+  opacity:0,
+  duration: .5,
+  delay:.5
+})
+.from('#about p', {
+  y: 10,
+  opacity:0,
+  duration: .5,
+  stagger: 0.2
+})
+
+var tlSkills = gsap.timeline({
+    scrollTrigger: {
         trigger: "#skills",
     }
 })
