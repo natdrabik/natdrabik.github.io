@@ -64,7 +64,6 @@ tlSkills.from('#about img', {
     y: 10,
   opacity:0,
   duration: .5,
-  delay:.5
 })
 .from('#about p', {
   y: 10,
