@@ -281,7 +281,7 @@ nav {
 #skills, #about {
   background-color: var(--foreground);
   background: radial-gradient(circle at 30% 10%, var(--primary-a0) 15%, var(--background) 150%);
-  grid-gap: 2cqw;
+  /* grid-gap: 2cqw; */
   container-type: inline-size;
 
   .about-grid {
@@ -293,7 +293,7 @@ nav {
     
     img {
       width: 17vw;
-      margin-bottom: 30px;
+      margin: 30px 0;
       /* opacity: 0.7; */
     }
   }
