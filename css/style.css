@@ -155,7 +155,7 @@ p {
   margin-bottom: 1rem;
   
   strong, b {
-    color: var(--secondary);
+    color: var(--primary);
   }
 }
 
@@ -278,23 +278,48 @@ nav {
   }
 }
 
-#skills {
+#skills, #about {
   background-color: var(--foreground);
   background: radial-gradient(circle at 30% 10%, var(--primary-a0) 15%, var(--background) 150%);
-  grid-gap: 2cqw;
+  /* grid-gap: 2cqw; */
   container-type: inline-size;
+
+  .about-me {
+    display: flex;
+    grid-gap: 10cqw;
+    align-items: center;
+    padding: 0;
+    flex-direction: column;
+    
+    img {
+                  width: 35vw;
+            margin: 20px 0 0 0;
+    }
+
+    
+  }
+
+  .about-me__txt {
+      width: auto;
+
+      p {
+        text-wrap-style: balance;
+        font-size: 16px;
+      }
+    }
 
   ul {
     display: flex;
-    grid-gap: 6cqw;
+    grid-gap: 3cqw;
     list-style: none;
     flex-wrap: wrap;
     justify-content: flex-start;
     margin: 0;
     padding: 0;
+    width: auto;
   }
 
-  li {
+  li {    
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -309,17 +334,24 @@ nav {
     padding-top: 10px;
   }
 
+  /* h3 {
+    margin: 0 0 30px 0;
+  } */
+
   h3 {
     margin: 0;
     text-align: center;
     height: 4cqw;
     display: flex;
     align-items: center;
+    /* font-size: 3.5cqw; */
   }
 
   svg {
     height: 10cqw;
-    flex: 0 0 10cqw;
+        flex: 0 0 10cqw;
+    /* height: 5cqw;
+    flex: 0 0 5cqw; */
   }
 }
 
@@ -525,13 +557,26 @@ nav {
   }
   }
 
-  #skills {
+  #skills, #about {
     ul {
-      grid-gap: 2.5cqw;
+      grid-gap: 2.5cqw 4cqw;
+      width: 80cqw;
     }
     li {
-      width: 14cqw;
-      height: 14cqw;
+      display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid var(--primary-a0);
+    width: 12cqw;
+    height: 12cqw;
+    justify-content: center;
+    border-radius: 15px;
+    background: var(--primary-a0);
+    filter: saturate(0.5) drop-shadow(0px 0px 1px var(--primary-dark));
+    grid-gap: 10px;
+    padding: 10px 10px 0 10px;
+      /* width: 14cqw;
+      height: 14cqw; */
       border-radius: 30px;
     }
 
@@ -545,6 +590,24 @@ nav {
       display: flex;
       align-items: center;
       font-size: 1.6cqw;
+    }
+
+    .about-me {
+      flex-direction: row;
+      padding: 0 5cqw;
+
+      img {
+      width: 17vw;
+      margin: 30px 0;
+    }
+    }
+
+    .about-me__txt {
+      width: 45cqw;
+    
+      p {
+        font-size: 1.4cqw;
+      }
     }
   }
 
@@ -570,9 +633,11 @@ nav {
 
   #links {
     svg {
-      height: 2cqw;
+      /* height: 2cqw;
       width: 2cqw;
-      flex: 0 0 2cqw;
+      flex: 0 0 2cqw; */
+      height: 5cqw; 
+      flex: 0 0 5cqw;
     }
 
     ul {
