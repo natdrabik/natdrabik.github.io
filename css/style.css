@@ -341,7 +341,7 @@ nav {
     height: 4cqw;
     display: flex;
     align-items: center;
-    font-size: 1.5cqw;
+    /* font-size: 3.5cqw; */
   }
 
   svg {
