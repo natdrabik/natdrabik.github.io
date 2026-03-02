@@ -301,6 +301,7 @@ nav {
 
       p {
         text-wrap-style: balance;
+        font-size: 16px;
       }
     }
   }
@@ -601,6 +602,10 @@ nav {
 
     .about-me__txt {
       width: 45cqw;
+    
+      p {
+        font-size: 1.4cqw;
+      }
     }
   }
 
