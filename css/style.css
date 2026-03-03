@@ -633,11 +633,11 @@ nav {
 
   #links {
     svg {
-      /* height: 2cqw;
+      height: 2cqw;
       width: 2cqw;
-      flex: 0 0 2cqw; */
-      height: 5cqw; 
-      flex: 0 0 5cqw;
+      flex: 0 0 2cqw;
+      /* height: 5cqw; 
+      flex: 0 0 5cqw; */
     }
 
     ul {
