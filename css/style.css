@@ -633,9 +633,9 @@ nav {
 
   #links {
     svg {
-      height: 3cqw;
-      width: 3cqw;
-      flex: 0 0 3cqw;
+      height: 2cqw;
+      width: 2cqw;
+      flex: 0 0 2cqw;
       /* height: 5cqw; 
       flex: 0 0 5cqw; */
     }
