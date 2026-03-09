@@ -657,3 +657,10 @@ nav {
 
   }
 }
+
+.pq {
+  ul {
+    display: flex;
+    list-style: none;
+  }
+}
