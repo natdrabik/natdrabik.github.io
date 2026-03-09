@@ -658,6 +658,16 @@ nav {
   }
 }
 
+.intro {
+  .txt {
+    width: 50%;
+  }
+
+  img {
+    width: 50%;
+  }
+}
+
 .pq {
   ul {
     display: flex;
