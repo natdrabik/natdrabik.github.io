@@ -663,6 +663,7 @@ nav {
   align-items: center;
   display: flex;
   position: relative;
+  justify-content: flex-start;
 
   .txt {
     width: 50%;
