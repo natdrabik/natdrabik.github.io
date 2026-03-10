@@ -659,12 +659,19 @@ nav {
 }
 
 .intro {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  position: relative;
+
   .txt {
     width: 50%;
   }
 
   img {
     width: 50%;
+    position: absolute;
+    right: 0;
   }
 }
 
