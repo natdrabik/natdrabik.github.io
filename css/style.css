@@ -678,7 +678,9 @@ nav {
 
 .pq {
   ul {
-    display: flex;
+    display: grid;
     list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4cqw;
   }
 }
