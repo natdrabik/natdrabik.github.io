@@ -1,8 +1,8 @@
 ---
 ---
-@use "colors";
-@use "global";
-@use "nav";
-@use "footer";
+@import "colors";
+@import "global";
+@import "nav";
+@import "footer";
 
-@use "home";
+@import "home";
